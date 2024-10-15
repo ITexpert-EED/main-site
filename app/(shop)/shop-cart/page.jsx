@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Footer16 from "@/components/footers/Footer16";
-import Header1 from "@/components/headers/Header1";
+// import Header1 from "@/components/headers/Header1";
 import ShopCart from "@/components/shop/ShopCart";
 import ShopFeatures from "@/components/shop/ShopFeatures";
 import React from "react";
-import Header22 from "@/components/headers/Header22";
+// import Header22 from "@/components/headers/Header22";
+import Header1 from "@/components/headers/Header1";
 
 export const metadata = {
   title: "Shop Cart || Industry - Factory & Industrial React Nextjs Template",
@@ -14,7 +15,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header22 />
+        <Header1 />
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"

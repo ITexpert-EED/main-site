@@ -1,10 +1,10 @@
 import CopyContainer from "@/components/common/CopyContainer";
 import Footer15 from "@/components/footers/Footer15";
-
-import Header4 from "@/components/headers/Header4";
+//  import Header4 from "@/components/headers/Header4";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Header1 from "@/components/headers/Header1";
 export const metadata = {
   title:
     "Header Style 2 || Industry - Factory & Industrial React Nextjs Template",
@@ -14,7 +14,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header4 />
+      <Header1/>
         <div className="page-content">
           {/* inner page banner */}
           <div

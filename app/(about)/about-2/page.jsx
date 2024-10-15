@@ -5,7 +5,7 @@ import Progress from "@/components/about/Progress";
 import Footer15 from "@/components/footers/Footer15";
 import Header1 from "@/components/headers/Header1";
 import Services from "@/components/homes/home-1/Services";
-import About from "@/components/homes/home-3/About";
+import About from "@/components/homes/home-1/About";
 import React from "react";
 
 export const metadata = {

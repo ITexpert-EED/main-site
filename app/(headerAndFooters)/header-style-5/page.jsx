@@ -1,6 +1,6 @@
 import CopyContainer from "@/components/common/CopyContainer";
 import Footer15 from "@/components/footers/Footer15";
-import Header20 from "@/components/headers/Header20";
+// import Header20 from "@/components/headers/Header20";
 import Image from "next/image";
 import Link from "next/link";
 export const metadata = {
@@ -12,7 +12,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header20 />
+        {/* <Header20 /> */}
         <div className="page-content">
           {/* inner page banner */}
           <div

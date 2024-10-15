@@ -1,6 +1,6 @@
 import Footer15 from "@/components/footers/Footer15";
 import Header1 from "@/components/headers/Header1";
-import Service from "@/components/homes/home-2/Service";
+// import Service from "@/components/homes/home-2/Service";
 
 import Banner2 from "@/components/service/Banner2";
 import Cta from "@/components/service/Cta";
@@ -20,7 +20,7 @@ export default function page() {
           <Banner2 />
           <div className="content-block">
             <Cta />
-            <Service />
+            {/* <Service /> */}
           </div>
         </div>
         <Footer15 />

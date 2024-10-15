@@ -1,6 +1,6 @@
 import CopyContainer from "@/components/common/CopyContainer";
 import Footer15 from "@/components/footers/Footer15";
-import Header2 from "@/components/headers/Header2";
+import Header1 from "@/components/headers/Header1";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,7 +13,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header2 />
+        <Header1/>
         <div className="page-content">
           {/* inner page banner */}
           <div

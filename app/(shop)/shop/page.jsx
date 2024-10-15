@@ -5,7 +5,7 @@ import Header1 from "@/components/headers/Header1";
 import Shop from "@/components/shop/Shop";
 import ShopFeatures from "@/components/shop/ShopFeatures";
 import React from "react";
-import Header22 from "@/components/headers/Header22";
+// import Header22 from "@/components/headers/Header22";
 
 export const metadata = {
   title: "Shop || Industry - Factory & Industrial React Nextjs Template",
@@ -15,7 +15,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header22 />
+        <Header1 />
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
