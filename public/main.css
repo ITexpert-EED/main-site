@@ -1,0 +1,27 @@
+@import "css/plugins.css";
+@import "css/style.css";
+@import "css/skin/skin-1.css";
+@import "css/skin/skin-2.css";
+@import "css/skin/skin-3.css";
+@import "css/skin/skin-4.css";
+@import "css/skin/skin-5.css";
+@import "css/skin/skin-6.css";
+@import "css/skin/skin-7.css";
+@import "css/skin/skin-8.css";
+@import "css/skin/skin-9.css";
+@import "css/skin/skin-10.css";
+@import "css/event.css";
+@import "plugins/revolution/revolution/css/revolution.min.css";
+@import "swiper/css/virtual";
+@import "swiper/css";
+@import "swiper/css/thumbs";
+@import "css/templete.css";
+@import "css/coming-soon.min.css";
+@import "css/star-rating-svg.css";
+
+/* .swiper-wrapper {
+  transition-timing-function: ease-in-out;
+} */
+
+@import "css/homeslider.css";
+@import "css/slides.css";

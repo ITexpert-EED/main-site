@@ -1,0 +1,258 @@
+.slider-wrapper {
+  position: relative;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.hero-sec .home-slider-7 .swiper-slide,
+.hero-sec .home-slider2 .swiper-slide {
+  height: 70vh;
+  background-size: cover !important;
+}
+
+.hero-sec .swiper-slide::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(transparent),
+    to(rgba(0, 0, 0, 0.9))
+  );
+  background: rgba(0, 0, 0, 0.4);
+  bottom: 0;
+  left: 0;
+}
+
+.previousButton,
+.nextButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: url(/images/icon/angle_right.png) no-repeat center center / 32px;
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.previousButton {
+  transform: translateY(-50%) rotate(180deg);
+  z-index: 10;
+  background: url(/images/icon/angle_right.png) no-repeat center center / 32px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.previousButton2,
+.nextButton2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: url(/images/icon/angle_right.png) no-repeat center center / 16px !important;
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.previousButton2 {
+  transform: translateY(-50%) rotate(180deg) !important;
+  z-index: 10;
+  background: url(/images/icon/angle_right.png) no-repeat center center / 16px !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.previousButton3,
+.nextButton3 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: url(/images/icon/angle_right.png) no-repeat center center / 16px !important;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  text-indent: -9999px;
+  cursor: pointer;
+  background-color: rgba(172, 166, 166, 0.5) !important;
+  border-radius: 3px;
+}
+.nextButton3 {
+  right: 0;
+}
+@media (min-width: 1200px) {
+  .previousButton3 {
+    left: 110px;
+  }
+  .nextButton3 {
+    right: 110px;
+  }
+}
+.previousButton4,
+.nextButton4 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: url(/images/icon/angle_right.png) no-repeat center center / 16px !important;
+  width: 40px !important;
+  height: 40px !important;
+  outline: none;
+  border: none;
+  text-indent: -9999px;
+  cursor: pointer;
+  background-color: rgba(172, 166, 166, 0.5) !important;
+  border-radius: 3px;
+}
+.nextButton34 {
+  right: 0;
+}
+@media (min-width: 1200px) {
+  .previousButton4 {
+    left: 110px;
+  }
+  .nextButton4 {
+    right: 110px;
+  }
+}
+@media (max-width: 1199px) {
+  .previousButton4 {
+    left: 0px !important;
+  }
+  .nextButton4 {
+    right: 0px !important;
+  }
+}
+
+.previousButton3 {
+  transform: translateY(-50%) rotate(180deg) !important;
+  z-index: 10;
+  background: url(/images/icon/angle_right.png) no-repeat center center / 16px !important;
+  background-color: rgba(172, 166, 166, 0.5) !important;
+}
+
+.previousButton:hover,
+.nextButton:hover {
+  background: url(/images/icon/angle_right.png) no-repeat center center / 17px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.previousButton3:hover,
+.nextButton3:hover {
+  background: url(/images/icon/angle_right.png) no-repeat center center / 17px;
+  background-color: rgba(109, 98, 98, 0.508) !important;
+}
+.previousButton4:hover,
+.nextButton4:hover {
+  background: url(/images/icon/angle_right.png) no-repeat center center / 17px;
+  background-color: rgba(109, 98, 98, 0.508) !important;
+}
+
+.previousButton {
+  left: 0;
+  -webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
+  transform: rotate(180deg) translateY(calc(50% + 0px));
+}
+
+.previousButton:hover {
+  left: -10px;
+}
+
+.nextButton {
+  right: 0;
+}
+
+.nextButton:hover {
+  right: -10px;
+}
+
+.slider-content {
+  text-align: center;
+}
+
+.hero-sec .slider-content .inner {
+  padding: 0 70px 70px 70px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.hero-sec .slider-content .sliderStyle2 button {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.hero-sec .slider-content .inner h1 {
+  font-weight: 900;
+  margin: 0 auto;
+  max-width: 840px;
+  color: #ffffff;
+  font-size: 64px;
+  line-height: 1;
+}
+
+.hero-sec .slider-content section {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.hero-sec .slider-content section span {
+  color: #ffffff;
+}
+
+.hero-sec .slider-content section span {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  display: inline-block;
+  text-align: left;
+  line-height: 1.4;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.hero-sec .slider-content section img {
+  width: 40px;
+  height: 40px;
+  border: solid 2px rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.hero-sec .slider-content section span strong {
+  color: #ffffff;
+  font-size: 14px;
+  display: block;
+}
+
+@media (max-height: 500px) {
+  .hero-sec .slider-wrapper,
+  .hero-sec .slide {
+    height: calc(100vh - 75px);
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-sec .slider-wrapper,
+  .hero-sec .slide {
+    height: calc(80vh - 75px);
+  }
+}
+
+@media (max-height: 600px) {
+  .hero-sec .slider-content .inner h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-sec .slider-content .inner h1 {
+    font-size: 32px;
+  }
+}
