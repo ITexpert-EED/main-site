@@ -22,9 +22,11 @@ export default function Home1() {
         <div className="page-content bg-white">
           {/* <h1>bvyufuyfuyvfhyjv</h1> */}
           <Hero />
-          <About />
-          <Cta />
           <Services />
+          <About />
+      
+          <Cta />
+        
           <Facts />
           <Team />
           <Testimonials />

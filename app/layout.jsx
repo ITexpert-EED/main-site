@@ -126,7 +126,7 @@ export default function RootLayout({ children }) {
           )}
         </Context>
         <SearchPopup />
-        <a
+        {/* <a
           href="https://1.envato.market/1d1Nm"
           target="_blank"
           className="bt-buy-now theme-btn"
@@ -141,7 +141,7 @@ export default function RootLayout({ children }) {
         >
           <i className="ti-headphone-alt" />
           <span>Support</span>
-        </a>
+        </a> */}
       </body>
     </html>
   );
