@@ -23,7 +23,7 @@ export default function Hero() {
               data-wow-delay="0.2s"
             >
               <h1 className="dz-title fw-bold position-relative">
-                Innovative Energy for a Sustainable World
+               Expert Engineers
               </h1>
             </div>
             <div
@@ -32,15 +32,14 @@ export default function Hero() {
               data-wow-delay="0.2s"
             >
               <p>
-                Find any course you want to learn and master it without time and
-                place limitation
+                Leading manufacturers of low voltage, high voltage electrical panels & switchboards in india.
               </p>
               <div className="dz-banner-btn d-flex align-items-center">
                 <Link
                   href={`/shortcode-pricing-table`}
                   className="btn btn-lg bg-primary m-0 text-decoration-none"
                 >
-                  Start Free Trial
+                 Our Products
                 </Link>
                 <a href="#">
                   Learn More

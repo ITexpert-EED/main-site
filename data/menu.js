@@ -121,11 +121,23 @@ export const homeItems = [
   },
 ];
 
+
 export const pagesItems = [
   {
     title: "LV/Mv Panels Manufacturing",
+    iconClass: "fas fa-angle-right",
     links: [
-      { href: "/about-1", label: "LV Panels" },
+      { href: "/about-1", label: "LV Panels"
+        , types:[
+          { href: "/lv-panel-type-1", label: "PCC Panels" },
+          { href: "/lv-panel-type-2", label: "MCC Panels" },
+          { href: "/lv-panel-type-3", label: "ATS Panel" },
+          { href: "/lv-panel-type-4", label: "DG Synchronizing Panel" },
+          { href: "/lv-panel-type-4", label: "AMF Panel" },
+          { href: "/lv-panel-type-4", label: "APFC PanelS" },
+          { href: "/lv-panel-type-4", label: "Solar 800V LT Panels" },
+        ]
+       },
       { href: "/about-2", label: "MV Panels" },
       { href: "/services-1", label: " Bus Bar Trunking" },
       { href: "/services-2", label: "Compact Sub Stations" },

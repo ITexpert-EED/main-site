@@ -54,6 +54,16 @@ export default function Nav() {
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 991);
   const [menuOpen1, setMenuOpen1] = useState("");
   const [menuOpen2, setMenuOpen2] = useState("");
+  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeSubIndex, setActiveSubIndex]= useState(null);
+
+  const toggleDropdown = index=>{
+    setActiveIndex(activeIndex === index? null : index);
+  }
+
+  const toggleSubDropdown = index=>{
+    setActiveSubIndex(activeSubIndex === index? null : index);
+  }
 
   // Function to handle resizing
   const handleResize = () => {
@@ -162,8 +172,8 @@ Home
           <i className="fas fa-chevron-down" />
         </a>
         <ul className="mega-menu">
-          {pagesItems.map((item, index) => (
-            <li key={index}>
+          {pagesItems.map((item, linkIndex) => (
+            <li key={linkIndex}>
               <a>{item.title}</a>
               <ul>
                 {item.links.map((link, idx) => (
@@ -177,6 +187,17 @@ Home
                   </li>
                 ))}
               </ul>
+              
+              {activeSubIndex === linkIndex && item.types && (
+                    <ul className="sub-dropdown-list">
+                      {item.types.map((type, typeIndex) => (
+                        <li key={typeIndex}>
+                          <a href={type.href}>{type.label}</a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+
             </li>
           ))}
         </ul>

@@ -48,6 +48,7 @@ export default function Footer1() {
           </div>
         </div>
       </div>
+      
       {/* footer top part */}
       <div
         className="footer-top"
