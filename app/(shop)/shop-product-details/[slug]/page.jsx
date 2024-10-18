@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Footer16 from "@/components/footers/Footer16";
+import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import ShopDetails from "@/components/shop/ShopDetails";
 import ShopFeatures from "@/components/shop/ShopFeatures";
@@ -23,7 +23,7 @@ export default function page({ params }) {
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
-            style={{ backgroundImage: "url(/images/banner/bnr4.jpg)" }}
+            style={{ backgroundImage: "url(/images/file.png)" }}
           >
             <div className="container">
               <div className="dlab-bnr-inr-entry">
@@ -42,10 +42,10 @@ export default function page({ params }) {
             </div>
           </div>
           <ShopDetails productsItem={productsItem} />
-
-          <ShopFeatures />
+{/* 
+          <ShopFeatures /> */}
         </div>
-        <Footer16 />
+        <Footer1 />
       </div>
     </>
   );

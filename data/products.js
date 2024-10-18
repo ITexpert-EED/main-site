@@ -2,7 +2,7 @@ export const products = [
   {
     id: 61,
     imgSrc: "/images/product/item1.jpg",
-    title: "Checked Short Dress",
+    title: "MV Panels",
     price: 232,
     discountedPrice: 192,
     rating: 2.5,
@@ -11,7 +11,7 @@ export const products = [
   {
     id: 62,
     imgSrc: "/images/product/item2.jpg",
-    title: "Slim Fit Chinos",
+    title: "LV Panels",
     price: 232,
     discountedPrice: 192,
     rating: 3.5,
@@ -83,7 +83,7 @@ export const products = [
   {
     id: 70,
     imgSrc: "/images/product/item2.jpg",
-    title: "Slim Fit Chinos",
+    title: "panels",
     price: 232,
     discountedPrice: 192,
     rating: 3.5,

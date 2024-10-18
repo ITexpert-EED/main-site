@@ -127,7 +127,7 @@ export const pagesItems = [
     title: "LV/Mv Panels Manufacturing",
     iconClass: "fas fa-angle-right",
     links: [
-      { href: "/about-1", label: "LV Panels"
+      { href: "/shop-product-details/panels", label: "LV Panels"
         , types:[
           { href: "/lv-panel-type-1", label: "PCC Panels" },
           { href: "/lv-panel-type-2", label: "MCC Panels" },
@@ -138,7 +138,7 @@ export const pagesItems = [
           { href: "/lv-panel-type-4", label: "Solar 800V LT Panels" },
         ]
        },
-      { href: "/about-2", label: "MV Panels" },
+      { href: "/product-details-panels/mv-panel", label: "MV Panels" },
       { href: "/services-1", label: " Bus Bar Trunking" },
       { href: "/services-2", label: "Compact Sub Stations" },
       // { href: "/services-details/Solar Panels", label: "Services Details" },
@@ -386,7 +386,7 @@ export const contactLinks = [
 export const shopLinks = [
   { href: "/shop", label: "Shop" },
   { href: "/shop-sidebar", label: "Shop Sidebar" },
-  { href: "/shop-product-details/Slim Fit Chinos", label: "Product Details" },
+  { href: "/shop-product-details/panels", label: "Product Details" },
   { href: "/shop-cart", label: "Cart" },
   { href: "/shop-wishlist", label: "Wishlist" },
   { href: "/shop-checkout", label: "Checkout" },
