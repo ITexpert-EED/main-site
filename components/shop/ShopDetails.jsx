@@ -19,7 +19,7 @@ import { useContextElement } from "@/context/Context";
 import GallaryWrapper from "../common/GallaryWrapper";
 const items = [
   {
-    src: "/images/product/item2/item1.jpg",
+    src: "/images/product/pcc.jpg",
     title: "Image 1 Title will come here",
   },
   {
@@ -52,7 +52,7 @@ export default function ShopDetails({ productsItem }) {
           <div className="col-md-5 col-lg-5 col-sm-12">
             <div
               className="product-gallery on-show-slider lightgallery"
-              id="lightgallery"
+              // id="lightgallery"
             >
               <GallaryWrapper>
                 <Swiper
@@ -114,7 +114,7 @@ export default function ShopDetails({ productsItem }) {
                   </div>
                 </Swiper>
               </GallaryWrapper>
-              <Swiper
+              {/* <Swiper
                 modules={[Thumbs]}
                 watchSlidesProgress
                 onSwiper={setThumbsSwiper}
@@ -131,7 +131,7 @@ export default function ShopDetails({ productsItem }) {
                     </div>
                   </SwiperSlide>
                 ))}
-              </Swiper>
+              </Swiper> */}
             </div>
           </div>
           <div className="col-md-7 col-lg-7 col-sm-12">
@@ -141,22 +141,24 @@ export default function ShopDetails({ productsItem }) {
             >
               <div className="dlab-post-title">
                 <h4 className="post-title">
-                  <a href="#">{productsItem.title}</a>
+                  <a href="#">Power Control Centers (PCC) Panel</a>
                 </h4>
                 <p className="m-b10">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic.
+                  Power Control Centers (PCC) Panel, in which your main incomer
+                  is directly connected to your LT transformer either by bus
+                  duct or cable & all protection given to this incomer i.e. over
+                  current & earth fault relay, restricted earth fault relay.
+                  Also, this panels have DG incomer as per client requirement of
+                  continues power supply even if main supply will be OFF. PCC
+                  Panel also includes outgoing feeders like PDB, MLDB and APFC &
+                  MCC feeders' incomer.
                 </p>
                 <div className="dlab-divider bg-gray tb15">
                   <i className="icon-dot c-square" />
                 </div>
               </div>
               <div className="relative">
-                <h3 className="m-tb10">$2,140.00</h3>
+                {/* <h3 className="m-tb10">$2,140.00</h3> */}
                 <div className="shop-item-rating">
                   <span className="rating-bx">
                     <i className="fas fa-star" />
@@ -168,7 +170,7 @@ export default function ShopDetails({ productsItem }) {
                   <span>4.5 Rating</span>
                 </div>
               </div>
-              <div className="shop-item-tage">
+              {/* <div className="shop-item-tage">
                 <span>Tags :- </span>
                 <a href="#">Shoes,</a>
                 <a href="#">Clothing</a>
@@ -328,7 +330,26 @@ export default function ShopDetails({ productsItem }) {
               </div>
               <button className="site-button radius-no">
                 <i className="ti-shopping-cart" /> Add To Cart
-              </button>
+              </button> */}
+
+              <Swiper
+                modules={[Thumbs]}
+                watchSlidesProgress
+                onSwiper={setThumbsSwiper}
+                spaceBetween={8}
+                slidesPerView={4}
+                className="owl-carousel owl-theme owl-none"
+              >
+                {items.map((elm, index) => (
+                  <SwiperSlide className="swiper-slide" key={index}>
+                    <div className="item">
+                      <div className="dlab-media">
+                        <Image alt="" src={elm.src} width="250" height="294" />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
             </form>
           </div>
         </div>
@@ -342,90 +363,107 @@ export default function ShopDetails({ productsItem }) {
                     href="#web-design-1"
                     className="active"
                   >
-                    <i className="fas fa-globe" /> Description
+                    <i className="fas fa-globe" /> Key Specifications:
                   </a>
                 </li>
                 <li>
                   <a data-bs-toggle="tab" href="#graphic-design-1">
-                    <i className="far fa-image" /> Additional Information
+                    <i className="far fa-image" /> Panel Specifications
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a data-bs-toggle="tab" href="#developement-1">
                     <i className="fas fa-cog" /> Product Review
                   </a>
-                </li>
+                </li> */}
               </ul>
               <div className="tab-content">
                 <div id="web-design-1" className="tab-pane active">
                   <p className="m-b10">
-                    Suspendisse et justo. Praesent mattis commyolk augue Aliquam
-                    ornare hendrerit augue Cras tellus In pulvinar lectus a est
-                    Curabitur eget orci Cras laoreet. Lorem ipsum dolor sit
-                    amet, consectetuer adipiscing elit. Suspendisse et justo.
-                    Praesent mattis commyolk augue aliquam ornare augue.
+                    PCC Panel stand for Power Control Center also known as Main
+                    power Panel ,The Power Control Center Panel works by combine
+                    circuits from several places into a single central hub. This
+                    enables access to the whole electrical connections of a
+                    grid, Industry from a single place. 
                   </p>
                   <p>
-                    "But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the system, and expound the
-                    actual teachings of the great explorer of the truth, the
-                    master-builder of human happiness. No one rejects, dislikes,
-                    or avoids pleasure itself, because it is pleasure, but
-                    because those who do not know how to pursue pleasure
-                    rationally encounter consequences
+                  The electricity for all
+                    circuits is controlled by a single main power switch in a
+                    PCC panel. When the main Circuit Breaker switch is turned
+                    off, the entire electric supply might be temporarily shut
+                    down. There are situations, though, when you may need to
+                    manage the power for individual components or places.
                   </p>
                   <ul className="list-check primary">
                     <li>
-                      "But I must explain to you how all this mistaken idea of
-                      denouncing pleasure and praising pain was born and I will
-                      give you a complete account of the system, and
+                     High endurance
                     </li>
                     <li>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book.
+                    Easy to maintain
                     </li>
+                    <li>
+                      Efficient power utilization
+                    </li>
+                    <li>
+                      Robust structure
+                    </li>
+                    <li> CPRI approved </li>
+                    <li> Better controllability</li>
+                    <li> Hassle-free operation </li>
+                    <li>Available in different technical specifications </li>
+                    <li>Designed with main panels that are either of draw out or non-draw out type</li>
+                  <li> Cubical panels depending on the type of application</li>
+                  <li>CPRI Certified products </li>
+                  <li> Made in single front design </li>
+                  <li>Integration of all necessary protections to meet safety standards</li>
                   </ul>
                 </div>
                 <div id="graphic-design-1" className="tab-pane">
                   <table className="table table-bordered">
                     <tbody>
                       <tr>
-                        <td>Size</td>
-                        <td>Small, Medium &amp; Large</td>
-                      </tr>
-                      <tr>
-                        <td>Color</td>
-                        <td>Pink &amp; White</td>
-                      </tr>
-                      <tr>
-                        <td>Rating</td>
+                        <td>Voltage</td>
+
                         <td>
-                          <span className="rating-bx">
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                            <i className="far fa-star" />
-                            <i className="far fa-star" />
-                          </span>
+                          {" "}
+                          380/415/440V, 50 Hz, 3 Phase &amp; 4 Wire AC System
                         </td>
                       </tr>
                       <tr>
-                        <td>Waist</td>
-                        <td>26 cm</td>
+                        <td>Construction Type</td>
+                        <td>
+                          Cubicle Design / Floor Standing with Single/Double
+                          Front for Operation
+                        </td>
                       </tr>
                       <tr>
-                        <td>Length</td>
-                        <td>40 cm</td>
+                        <td>Enclosure</td>
+                        <td>
+                          Fabricated with 1mm/1.6mm/2mm/2.5mm/3mm CRCA MS sheet
+                        </td>
                       </tr>
                       <tr>
-                        <td>Chest</td>
-                        <td>33 inches</td>
+                        <td>Degree of Protection</td>
+                        <td>IP 4X/5X</td>
                       </tr>
                       <tr>
+                        <td>Busbar</td>
+                        <td>
+                          Electrolytic Grade Aluminium/ Electrolytic Grade
+                          Copper / Tinned Electrolytic Grade Copper –provided
+                          with colored PVC sleeves & of standard current density
+                          (1A/sq.mm for Aluminium & 1.6A/sq.mm for Copper) or
+                          customer specified current density.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Enclosure Color</td>
+                        <td>
+                          RAL 7032 Shade (Industrial Standard) / Customer
+                          Specified Color
+                        </td>
+                      </tr>
+                      {/* <tr>
                         <td>Fabric</td>
                         <td>Cotton, Silk &amp; Synthetic</td>
                       </tr>
@@ -436,275 +474,13 @@ export default function ShopDetails({ productsItem }) {
                       <tr>
                         <td>Chest</td>
                         <td>33 inches</td>
-                      </tr>
+                      </tr> */}
                     </tbody>
                   </table>
                 </div>
                 <div id="developement-1" className="tab-pane">
-                  <div id="comments">
-                    <ol className="commentlist">
-                      <li className="comment">
-                        <div className="comment_container">
-                          <Image
-                            className="avatar avatar-60 photo"
-                            alt=""
-                            src="/images/testimonials/pic1.jpg"
-                            width="100"
-                            height="100"
-                          />
-                          <div className="comment-text">
-                            <div className="star-rating">
-                              <div data-rating={2}>
-                                <i
-                                  className="fas fa-star text-yellow"
-                                  data-alt={1}
-                                  title="regular"
-                                />
-                                <i
-                                  className="fas fa-star text-yellow"
-                                  data-alt={2}
-                                  title="regular"
-                                />
-                                <i
-                                  className="far fa-star text-yellow"
-                                  data-alt={3}
-                                  title="regular"
-                                />
-                                <i
-                                  className="far fa-star text-yellow"
-                                  data-alt={4}
-                                  title="regular"
-                                />
-                                <i
-                                  className="far fa-star text-yellow"
-                                  data-alt={5}
-                                  title="regular"
-                                />
-                              </div>
-                            </div>
-                            <p className="meta">
-                              <strong className="author">Cobus Bester</strong>
-                              <span>
-                                <i className="far fa-clock" /> March 7, 2013
-                              </span>
-                            </p>
-                            <div className="description">
-                              <p>
-                                Lorem Ipsum is simply dummy text of the printing
-                                and typesetting industry. Lorem Ipsum has been
-                                the industry's standard dummy text ever since
-                                the 1500s, when an unknown printer took a galley
-                                of type and scrambled it to make a type specimen
-                                book.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="comment">
-                        <div className="comment_container">
-                          <Image
-                            className="avatar avatar-60 photo"
-                            alt=""
-                            src="/images/testimonials/pic2.jpg"
-                            width="100"
-                            height="100"
-                          />
-                          <div className="comment-text">
-                            <div className="star-rating">
-                              <div data-rating={3}>
-                                <i
-                                  className="fas fa-star text-yellow"
-                                  data-alt={1}
-                                  title="regular"
-                                />
-                                <i
-                                  className="fas fa-star text-yellow"
-                                  data-alt={2}
-                                  title="regular"
-                                />
-                                <i
-                                  className="fas fa-star text-yellow"
-                                  data-alt={3}
-                                  title="regular"
-                                />
-                                <i
-                                  className="far fa-star text-yellow"
-                                  data-alt={4}
-                                  title="regular"
-                                />
-                                <i
-                                  className="far fa-star text-yellow"
-                                  data-alt={5}
-                                  title="regular"
-                                />
-                              </div>
-                            </div>
-                            <p className="meta">
-                              <strong className="author">Cobus Bester</strong>
-                              <span>
-                                <i className="far fa-clock" /> March 7, 2013
-                              </span>
-                            </p>
-                            <div className="description">
-                              <p>
-                                Lorem Ipsum is simply dummy text of the printing
-                                and typesetting industry. Lorem Ipsum has been
-                                the industry's standard dummy text ever since
-                                the 1500s, when an unknown printer took a galley
-                                of type and scrambled it to make a type specimen
-                                book.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="comment">
-                        <div className="comment_container">
-                          <Image
-                            className="avatar avatar-60 photo"
-                            alt=""
-                            src="/images/testimonials/pic3.jpg"
-                            width="100"
-                            height="100"
-                          />
-                          <div className="comment-text">
-                            <div className="star-rating">
-                              <div data-rating={3}>
-                                <i
-                                  className="fas fa-star text-yellow"
-                                  data-alt={1}
-                                  title="regular"
-                                />
-                                <i
-                                  className="fas fa-star text-yellow"
-                                  data-alt={2}
-                                  title="regular"
-                                />
-                                <i
-                                  className="fas fa-star text-yellow"
-                                  data-alt={3}
-                                  title="regular"
-                                />
-                                <i
-                                  className="fas fa-star text-yellow"
-                                  data-alt={4}
-                                  title="regular"
-                                />
-                                <i
-                                  className="far fa-star text-yellow"
-                                  data-alt={5}
-                                  title="regular"
-                                />
-                              </div>
-                            </div>
-                            <p className="meta">
-                              <strong className="author">Cobus Bester</strong>
-                              <span>
-                                <i className="far fa-clock" /> March 7, 2013
-                              </span>
-                            </p>
-                            <div className="description">
-                              <p>
-                                Lorem Ipsum is simply dummy text of the printing
-                                and typesetting industry. Lorem Ipsum has been
-                                the industry's standard dummy text ever since
-                                the 1500s, when an unknown printer took a galley
-                                of type and scrambled it to make a type specimen
-                                book.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    </ol>
-                  </div>
-                  <div id="review_form_wrapper">
-                    <div id="review_form">
-                      <div id="respond" className="comment-respond">
-                        <h3 className="comment-reply-title" id="reply-title">
-                          Add a review
-                        </h3>
-                        <form
-                          className="comment-form"
-                          onSubmit={(e) => e.preventDefault()}
-                        >
-                          <div className="comment-form-author">
-                            <label>
-                              Name <span className="required">*</span>
-                            </label>
-                            <input
-                              type="text"
-                              aria-required="true"
-                              size={30}
-                              defaultValue=""
-                              name="author"
-                              id="author"
-                            />
-                          </div>
-                          <div className="comment-form-email">
-                            <label>
-                              Email <span className="required">*</span>
-                            </label>
-                            <input
-                              type="text"
-                              aria-required="true"
-                              size={30}
-                              defaultValue=""
-                              name="email"
-                              id="email"
-                            />
-                          </div>
-                          <div className="comment-form-rating">
-                            <label className="pull-left m-r20">
-                              Your Rating
-                            </label>
-                            <div className="rating-widget">
-                              {/* Rating Stars Box */}
-                              <div className="rating-stars">
-                                <ul id="stars">
-                                  {starRatings.map((st, index) => (
-                                    <li
-                                      key={index}
-                                      className={`star cursor-pointer ${
-                                        star >= st.dataValue ? "selected" : ""
-                                      }`}
-                                      onClick={() => setstar(st.dataValue)}
-                                      title={st.title}
-                                      data-value={st.dataValue}
-                                    >
-                                      <i className="fas fa-star fa-fw" />
-                                    </li>
-                                  ))}
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="comment-form-comment">
-                            <label>Your Review</label>
-                            <textarea
-                              aria-required="true"
-                              rows={8}
-                              cols={45}
-                              name="comment"
-                              id="comment"
-                              defaultValue={""}
-                            />
-                          </div>
-                          <div className="form-submit">
-                            <input
-                              type="submit"
-                              defaultValue="Submit"
-                              className="site-button"
-                              id="submit"
-                              name="submit"
-                            />
-                          </div>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
+              
+                  
                 </div>
               </div>
             </div>
