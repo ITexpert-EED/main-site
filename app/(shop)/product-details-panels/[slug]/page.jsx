@@ -3,6 +3,7 @@ import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import ShopDetails from "@/components/shop/ShopDetails";
 import ShopFeatures from "@/components/shop/ShopFeatures";
+import ProductDetails from "@/components/shop/ProductDetails";
 import React from "react";
 import { products } from "@/data/products";
 // import Header22 from "@/components/headers/Header22";
@@ -41,9 +42,9 @@ export default function page({ params }) {
               </div>
             </div>
           </div>
-          <ShopDetails productsItem={productsItem} />
-{/* 
-          <ShopFeatures /> */}
+          {/* <ShopDetails productsItem={productsItem} /> */}
+          <ProductDetails productsItem={productsItem}/>
+{/* <ShopFeatures /> */}
         </div>
         <Footer1 />
       </div>
