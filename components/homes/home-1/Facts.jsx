@@ -8,6 +8,7 @@ export default function Facts() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+    
       <div
         className="section-full text-white bg-img-fix content-inner overlay-black-dark counter-staus-box"
         style={{ backgroundImage: "url(/images/background/bg4.jpg)" }}

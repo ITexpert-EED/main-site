@@ -1,47 +1,28 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 export default function Cta() {
   return (
     <div
-      className="section-full bg-img-fix content-inner-2 overlay-black-dark contact-action style2"
-      style={{ backgroundImage: "url(/images/background/bg2.jpg)" }}
+      className="section-full call-action bg-primary wow fadeIn"
+      data-wow-duration="2s"
+      data-wow-delay="0.3s"
     >
       <div className="container">
-        <div className="row relative">
-          <div
-            className="col-md-12 col-lg-8 wow fadeInLeft"
-            data-wow-duration="2s"
-            data-wow-delay="0.2s"
-          >
-            <div className="contact-no-area">
-              <h2 className="title">
-                A company involved in service, maintenance
-              </h2>
-              <div className="contact-no">
-                <div className="contact-left">
-                  <h3 className="no">
-                    <i className="sl-call-in" />
-                 +91 971-137-7735
-                  </h3>
-                </div>
-                <div className="contact-right">
-                  <Link
-                    href={`/contact-4`}
-                    className="site-button appointment-btn btnhover13"
-                  >
-                    Get Appointment
-                  </Link>
-                </div>
-              </div>
-            </div>
+        <div className="row">
+          <div className="col-lg-9 text-white">
+            <h2 className="title">Amazing things happen to your business</h2>
+            <p className="m-b0">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
           </div>
-          <div
-            className="col-md-12 col-lg-4 contact-img-bx wow fadeInRight relative"
-            data-wow-duration="2s"
-            data-wow-delay="0.2s"
-          >
-            <Image alt="" src="/images/pic1.png" width="500" height="542" />
+          <div className="col-lg-3 d-flex">
+            <Link
+              href={`/contact-3`}
+              className="site-button btnhover19 white align-self-center outline ms-auto outline-2"
+            >
+              Contact Us
+            </Link>
           </div>
         </div>
       </div>

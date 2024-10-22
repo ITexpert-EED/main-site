@@ -930,56 +930,115 @@ export const services10 = [
   {
     id: 137,
     imgSrc: "/images/icon/car/icon-1.png",
-    title: "Air Conditioning",
+    title: "Trunking Project",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      "We offer complete electrical and mechanical turnkey solutions, from design to commissioning, ensuring precision, efficiency, and customer satisfaction.",
     animation: "bounceInUp",
     delay: "0.3s",
+    types: [
+      "ALL SERVICES",
+      "ELECTRICAL TRUNKING PROJECT",
+      "MECHANICAL SERVICES"
+    ]
   },
   {
     id: 138,
     imgSrc: "/images/icon/car/icon-2.png",
-    title: "Brake Repair",
+    title: "Automation Solution",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      " Our solutions automate Front Remote Terminal Units (FRTU) and modems for enhanced communication and remote monitoring in various systems.",
     animation: "bounceInUp",
     delay: "0.6s",
+    types: [
+      "ALL SERVICES",
+      "ELECTRICAL TRUNKING PROJECT",
+      "MECHANICAL SERVICES"
+    ]
   },
   {
     id: 139,
     imgSrc: "/images/icon/car/icon-3.png",
-    title: "Lube, Oil And Filters",
+    title: "Water Solution",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      "We design and implement wastewater management systems that provide effective treatment and recycling of industrial and municipal wastewater.",
     animation: "bounceInUp",
     delay: "0.9s",
+    types: [
+      "ALL SERVICES",
+      "ELECTRICAL TRUNKING PROJECT",
+      "MECHANICAL SERVICES"
+    ]
   },
   {
     id: 140,
     imgSrc: "/images/icon/car/icon-4.png",
-    title: "Belts And Hoses",
+    title: "Retrofitting Work",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      "Our retrofitting services upgrade existing electrical and mechanical systems to enhance performance, safety, and energy efficiency",
     animation: "bounceInUp",
     delay: "0.9s",
+    types: [
+      "ALL SERVICES",
+      "ELECTRICAL TRUNKING PROJECT",
+      "MECHANICAL SERVICES"
+    ]
   },
   {
     id: 141,
     imgSrc: "/images/icon/car/icon-5.png",
-    title: "Engine Diagnostics",
+    title: "Audit",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      "We conduct energy, power factor, and earthing audits, identifying savings and optimizing efficiency while ensuring safe grounding through soil testing.",
     animation: "bounceInUp",
     delay: "0.6s",
+    types: [
+      "ALL SERVICES",
+      "ELECTRICAL TRUNKING PROJECT",
+      "MECHANICAL SERVICES"
+    ]
   },
   {
     id: 142,
     imgSrc: "/images/icon/car/icon-6.png",
-    title: "Tire – Wheel Services",
+    title: "Testing",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      "We provide comprehensive testing services for transformers, cables, HT panels, and relays, ensuring safe, efficient operation, fault detection, and compliance with standards.",
     animation: "bounceInUp",
     delay: "0.3s",
+    types: [
+      "ALL SERVICES",
+      "ELECTRICAL TRUNKING PROJECT",
+      "MECHANICAL SERVICES"
+    ]
+  },
+
+  {
+    id: 142,
+    imgSrc: "/images/icon/car/icon-6.png",
+    title: " Annual Maintenance Contracts (AMC)",
+    description:
+      "Our Annual Maintenance Contracts (AMC) for HT-LT panels ensure regular maintenance and troubleshooting, enhancing their operational reliability.",
+    animation: "bounceInUp",
+    delay: "0.3s",
+    types: [
+      "ALL SERVICES",
+      "ELECTRICAL TRUNKING PROJECT",
+      "MECHANICAL TRUNKING PROJECT"
+    ]
+  },
+  {
+    id: 142,
+    imgSrc: "/images/icon/car/icon-6.png",
+    title: "MISC Service",
+    description:
+      " ",
+    animation: "bounceInUp",
+    delay: "0.3s",
+    types: [
+      "ALL SERVICES",
+      "ELECTRICAL TRUNKING PROJECT",
+      "MECHANICAL TRUNKING PROJECT"
+    ]
   },
 ];
 

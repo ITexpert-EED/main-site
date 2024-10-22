@@ -9,26 +9,15 @@ export default function ServiceDetails({ serviceItem }) {
             <div className="widget sidebar-widget ext-sidebar-menu widget_nav_menu">
               <ul className="menu">
                 <li>
-                  <a href="#">all services</a>
+                  <a href="#">{serviceItem.types[0]}</a>
                 </li>
                 <li className="active">
-                  <a href="#">engine diagnostics</a>
+                  <a href="#">{serviceItem.types[1]}</a>
                 </li>
                 <li>
-                  <a href="#">lube oil and filters</a>
+                  <a href="#">{serviceItem.types[2]}</a>
                 </li>
-                <li>
-                  <a href="#">belts and hoses</a>
-                </li>
-                <li>
-                  <a href="#">air conditioning</a>
-                </li>
-                <li>
-                  <a href="#">brake repair</a>
-                </li>
-                <li>
-                  <a href="#">tire and wheel services</a>
-                </li>
+            
               </ul>
             </div>
             <div className="widget">
@@ -52,6 +41,16 @@ export default function ServiceDetails({ serviceItem }) {
             </div>
           </div>
           <div className="col-xl-9 col-lg-8 col-md-7 m-b30">
+          <h4 className="dlab-title m-t0">
+                      <a href="#">{serviceItem.title}</a>
+                    </h4>
+                    <p>
+                      There are many variations of passages of Lorem Ipsum
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book.
+                    </p>
             <div className="row">
               <div className="col-lg-6 col-md-12 m-b30">
                 <div className="dlab-box">

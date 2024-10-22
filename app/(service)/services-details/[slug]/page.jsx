@@ -1,4 +1,4 @@
-import Footer15 from "@/components/footers/Footer15";
+import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import Banner3 from "@/components/service/Banner3";
 import ServiceDetails from "@/components/service/ServiceDetails";
@@ -25,7 +25,7 @@ export default function page({ params }) {
             <ServiceDetails serviceItem={serviceItem} />
           </div>
         </div>
-        <Footer15 />
+        <Footer1 />
       </div>
     </>
   );

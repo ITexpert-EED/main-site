@@ -138,7 +138,16 @@ export const pagesItems = [
           { href: "/lv-panel-type-4", label: "Solar 800V LT Panels" },
         ]
        },
-      { href: "/product-details-panels/mv-panel", label: "MV Panels" },
+      { href: "/product-details-panels/mv-panel", label: "MV Panels",
+        type:[
+          {href:""}
+        ]
+
+
+
+
+
+      },
       { href: "/services-1", label: " Bus Bar Trunking" },
       { href: "/services-2", label: "Compact Sub Stations" },
       // { href: "/services-details/Solar Panels", label: "Services Details" },
