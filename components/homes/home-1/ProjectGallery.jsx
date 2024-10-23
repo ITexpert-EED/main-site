@@ -60,7 +60,7 @@ export default function ProjectGallery() {
                   </p>
                 </li>
                 <li>
-                  <h4 className="m-b10">Zero Error Delivery</h4>
+                  <h4 className="m-b10">Negligible Delivery</h4>
                   <p>
                     With attention to detail, we guarantee that your building
                     will be delivered without any errors.
@@ -89,12 +89,12 @@ export default function ProjectGallery() {
                 <Image
                   className="img-cover"
                   alt=""
-                  src="/images/our-work/car/pic3.jpg"
+                  src="/images/company pump.png"
                   width="500"
                   height="357"
                 />
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6">
+              {/* <div className="col-lg-6 col-md-6 col-sm-6">
                 <div className="video-bx radius-no h100">
                   <Image
                     alt="Signature"
@@ -112,7 +112,33 @@ export default function ProjectGallery() {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
+
+<div className="col-lg-6 col-md-6 col-sm-6">
+  <div className="video-bx radius-no h100">
+    <video
+      className="img-cover"
+      width="500"
+      height="357"
+      autoPlay
+      muted
+      loop
+     
+      src="/video/laser cutter.mp4" // Replace with the correct video path
+    >
+      Your browser does not support the video tag.
+    </video>
+    {/* <div className="video-play-icon">
+      <a
+        onClick={() => setOpen(true)}
+        className="popup-youtube video bg-primary"
+      >
+        <i className="fas fa-play" />
+      </a>
+    </div> */}
+  </div>
+</div>
+
               <div className="col-lg-6 col-md-6 col-sm-6 bg-secondry align-items-center d-flex">
                 <div className="dlab-services-box text-white">
                   <h3 className="title text-white m-b15">

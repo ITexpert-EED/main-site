@@ -898,9 +898,9 @@ export const services9 = [
     id: 131,
     imgSrc: "/images/gallery/car/pic1.jpg",
     iconClass: "ti-user",
-    title: "Largest Dealership",
+    title: "Our Journey",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and type setting industry.Lorem Ipsum is simply dummy text.",
+      "The road to success and failure are exactly the same as success is the result of preparation, hard work and learning failure. To get through the journey we need to take only one step at a time. But we must keep on stepping.",
     animation: "fadeInLeft",
     delay: "0.3s",
   },
@@ -908,9 +908,9 @@ export const services9 = [
     id: 132,
     imgSrc: "/images/gallery/car/pic2.jpg",
     iconClass: "ti-settings",
-    title: "Lower Car Prices",
+    title: "Quality Policy",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and type setting industry.Lorem Ipsum is simply dummy text.",
+      "We are Committed to Excellence.Excellence is art won by training and habituation. We do not act rightly because we have virtue of excellence but we rather have those because we have acted rightly. We are what are repeatedly do.",
     animation: "fadeInRight",
     delay: "0.3s",
   },
@@ -918,9 +918,9 @@ export const services9 = [
     id: 133,
     imgSrc: "/images/gallery/car/pic3.jpg",
     iconClass: "ti-support",
-    title: "Multipoint Safety",
+    title: "Our Vision",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and type setting industry.Lorem Ipsum is simply dummy text.",
+      "Expert Engineers strives to deliver innovative solutions through advanced technology and precision engineering, aiming to lead in turnkey projects, switchboard assembly, and allied product manufacturing.",
     animation: "fadeInDown",
     delay: "0.3s",
   },
@@ -938,8 +938,8 @@ export const services10 = [
     types: [
       "ALL SERVICES",
       "ELECTRICAL TRUNKING PROJECT",
-      "MECHANICAL SERVICES"
-    ]
+      "MECHANICAL SERVICES",
+    ],
   },
   {
     id: 138,
@@ -951,9 +951,13 @@ export const services10 = [
     delay: "0.6s",
     types: [
       "ALL SERVICES",
-      "ELECTRICAL TRUNKING PROJECT",
-      "MECHANICAL SERVICES"
-    ]
+      "Load Management System",
+      "Scada System",
+      "Energy Management System",
+      "Building Management System",
+      "Special Purpose Machine Automation",
+      "FRTU and Modems",
+    ],
   },
   {
     id: 139,
@@ -965,9 +969,16 @@ export const services10 = [
     delay: "0.9s",
     types: [
       "ALL SERVICES",
-      "ELECTRICAL TRUNKING PROJECT",
-      "MECHANICAL SERVICES"
-    ]
+      "Water Work",
+      "WasteWater",
+      " Irrigation",
+      "Borewell Automation System",
+      "Pumps",
+      "Valves",
+      "Filtration Vessels",
+      "Smart Valves",
+      "Flow Meter",
+    ],
   },
   {
     id: 140,
@@ -980,8 +991,8 @@ export const services10 = [
     types: [
       "ALL SERVICES",
       "ELECTRICAL TRUNKING PROJECT",
-      "MECHANICAL SERVICES"
-    ]
+      "MECHANICAL SERVICES",
+    ],
   },
   {
     id: 141,
@@ -994,8 +1005,8 @@ export const services10 = [
     types: [
       "ALL SERVICES",
       "ELECTRICAL TRUNKING PROJECT",
-      "MECHANICAL SERVICES"
-    ]
+      "MECHANICAL SERVICES",
+    ],
   },
   {
     id: 142,
@@ -1008,8 +1019,8 @@ export const services10 = [
     types: [
       "ALL SERVICES",
       "ELECTRICAL TRUNKING PROJECT",
-      "MECHANICAL SERVICES"
-    ]
+      "MECHANICAL SERVICES",
+    ],
   },
 
   {
@@ -1023,22 +1034,21 @@ export const services10 = [
     types: [
       "ALL SERVICES",
       "ELECTRICAL TRUNKING PROJECT",
-      "MECHANICAL TRUNKING PROJECT"
-    ]
+      "MECHANICAL TRUNKING PROJECT",
+    ],
   },
   {
     id: 142,
     imgSrc: "/images/icon/car/icon-6.png",
     title: "MISC Service",
-    description:
-      " ",
+    description: " ",
     animation: "bounceInUp",
     delay: "0.3s",
     types: [
       "ALL SERVICES",
       "ELECTRICAL TRUNKING PROJECT",
-      "MECHANICAL TRUNKING PROJECT"
-    ]
+      "MECHANICAL TRUNKING PROJECT",
+    ],
   },
 ];
 

@@ -11,7 +11,7 @@ export default function Facts() {
     
       <div
         className="section-full text-white bg-img-fix content-inner overlay-black-dark counter-staus-box"
-        style={{ backgroundImage: "url(/images/background/bg4.jpg)" }}
+        style={{ backgroundImage: "url(/images/wa001.png)" }}
       >
         <div className="container">
           <div className="row">

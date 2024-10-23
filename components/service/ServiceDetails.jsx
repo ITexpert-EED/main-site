@@ -17,9 +17,32 @@ export default function ServiceDetails({ serviceItem }) {
                 <li>
                   <a href="#">{serviceItem.types[2]}</a>
                 </li>
-            
+              <li>
+                  <a href="#">{serviceItem.types[3]}</a>
+                </li>
+                  <li>
+                  <a href="#">{serviceItem.types[4]}</a>
+                </li>
+                  <li>
+                  <a href="#">{serviceItem.types[5]}</a>
+                  
+                </li>
+                  <li>
+                  <a href="#">{serviceItem.types[6]}</a>
+                </li>
+                  <li>
+                  <a href="#">{serviceItem.types[7]}</a>
+                </li>
+                  <li>
+                  <a href="#">{serviceItem.types[8]}</a>
+                </li>
+                  <li>
+                  <a href="#">{serviceItem.types[9]}</a>
+                </li>
+                 
               </ul>
             </div>
+            
             <div className="widget">
               <div className="download-file">
                 <h4 className="title">Get your brochures</h4>
