@@ -7,7 +7,7 @@ export default function Hero() {
       className="hero-sec hero-section home-slider-14 scrollSpySection"
       id="home"
       style={{
-        backgroundImage: 'url("/images/wa001.png")',
+        backgroundImage: 'url("/images/company pump.png")',
       }}
     >
       <div className="container">
@@ -15,7 +15,7 @@ export default function Hero() {
           <div className="col-md-6 relative">
             <div className="content-wrapper full-height">
               <div className="hero-content content-center">
-                <h1 className="title style1">
+                <h1 className="title style1" style={{color:"#9c1616"}}>
                   Electrical Control Panel Manufactures
                 </h1>
                 <div className="description style2">

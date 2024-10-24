@@ -60,7 +60,7 @@ export default function ProjectGallery() {
                   </p>
                 </li>
                 <li>
-                  <h4 className="m-b10">Negligible Delivery</h4>
+                  <h4 className="m-b10">Negligible error Delivery</h4>
                   <p>
                     With attention to detail, we guarantee that your building
                     will be delivered without any errors.
@@ -78,10 +78,10 @@ export default function ProjectGallery() {
               <div className="col-lg-6 col-md-6 col-sm-6 bg-primary align-items-center d-flex">
                 <div className="dlab-services-box text-white">
                   <h2 className="service-year">
-                    32<small>year</small>
+                    14<small>year</small>
                   </h2>
                   <h3 className="title m-b0">
-                    We are Building the Future and Restoring.
+                  Leading the way in low voltage control panels for power and industry.
                   </h3>
                 </div>
               </div>
@@ -122,9 +122,9 @@ export default function ProjectGallery() {
       height="357"
       autoPlay
       muted
-      loop
+
      
-      src="/video/laser cutter.mp4" // Replace with the correct video path
+      src="/video/EE cutter.mp4" // Replace with the correct video path
     >
       Your browser does not support the video tag.
     </video>

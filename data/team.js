@@ -355,54 +355,53 @@ export const teamMembers7 = [
 export const teamMembers8 = [
   {
     imgSrc: "/images/our-team/car/pic1.jpg",
-    name: "Nashid Martines",
-    position: "Director",
+    name: "Lokesh Gupta",
+    position: "Sales Manager",
     animation: "bounceInLeft",
     delay: "0.3s",
     socialLinks: {
-      facebook: "#",
+     
       twitter: "#",
       linkedin: "#",
-      pinterest: "#",
+   
     },
   },
   {
     imgSrc: "/images/our-team/car/pic2.jpg",
-    name: "Konne Backfield",
-    position: "Marketing",
+    name: "Ashish Saini",
+    position: "Regional Sales Manager",
     animation: "bounceInDown",
     delay: "0.3s",
     socialLinks: {
-      facebook: "#",
+  
       twitter: "#",
       linkedin: "#",
-      pinterest: "#",
+     
     },
   },
   {
     imgSrc: "/images/our-team/car/pic3.jpg",
-    name: "Hackson Willingham",
-    position: "Sales Manager",
+    name: "Arun Rajput",
+    position: "Purchase Manager",
     animation: "bounceInUp",
     delay: "0.3s",
     socialLinks: {
-      facebook: "#",
+  
       twitter: "#",
       linkedin: "#",
-      pinterest: "#",
+     
     },
   },
   {
     imgSrc: "/images/our-team/car/pic4.jpg",
-    name: "Konne Backfield",
-    position: "Marketing",
+    name: "Kripashankar Mishra",
+    position: "Regional Sales Engineer",
     animation: "bounceInRight",
     delay: "0.3s",
     socialLinks: {
-      facebook: "#",
-      twitter: "#",
+       twitter: "#",
       linkedin: "#",
-      pinterest: "#",
+    
     },
   },
 ];

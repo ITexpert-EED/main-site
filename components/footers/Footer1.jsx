@@ -18,12 +18,13 @@ export default function Footer1() {
             <div className="ft-contact-bx">
               <Image
                 alt=""
+        
                 src="/images/icon/icon1.png"
                 width="55"
                 height="55"
               />
               <h4 className="title">Address</h4>
-              <p>G1-287, RIICO Ind.Area,Khushkhera, Bhiwadi,Rajasthan-301707</p>
+              <p>Plot No E11-E80, RIICO Industrial Area,Khushkhera, Bhiwadi,Rajasthan-301707</p>
             </div>
             <div className="ft-contact-bx">
               <Image

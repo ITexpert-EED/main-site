@@ -7,7 +7,7 @@ export default function Team() {
     <div
       className="section-full bg-gray content-inner overlay-primary-dark bg-img-fix scrollSpySection"
       id="team"
-      style={{ backgroundImage: "url(/images/background/bg19.jpg)" }}
+      style={{ backgroundImage: "url(/images/wa001.png)" }}
     >
       <div className="container">
         <div className="section-head text-center text-white">
@@ -44,12 +44,7 @@ export default function Team() {
                     </h4>
                     <span className="dlab-position">{member.position}</span>
                     <ul className="dlab-social-icon dez-border">
-                      <li>
-                        <a
-                          className="fab fa-facebook-f"
-                          href={member.socialLinks.facebook}
-                        />
-                      </li>{" "}
+                      
                       <li>
                         <a
                           className="fab fa-twitter"
@@ -62,12 +57,7 @@ export default function Team() {
                           href={member.socialLinks.linkedin}
                         />
                       </li>{" "}
-                      <li>
-                        <a
-                          className="fab fa-pinterest-p"
-                          href={member.socialLinks.pinterest}
-                        />
-                      </li>
+                      
                     </ul>
                   </div>
                 </div>
