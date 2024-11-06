@@ -9,15 +9,17 @@ export default function ProjectGallery() {
   return (
     <>
       <div className="section-full scrollSpySection" id="choose-us">
-        <div className="row m-lr0">
+        <div className="row m-lr0 ">
           <div
             className="col-xl-6 col-lg-12 p-lr0 d-flex dis-tbl latest-project-info style1 bg-secondry wow fadeInLeft"
             data-wow-duration="2s"
             data-wow-delay="0.3s"
+          
           >
             <div className="align-self-center text-white">
-              <div className="section-head text-white">
+              <div className="section-head text-white"   >
                 <h2 className="title">Why choose us</h2>
+            
                 <p>
                   We’re continually working to change the way people think about
                   and engage with our products.
@@ -78,7 +80,7 @@ export default function ProjectGallery() {
               <div className="col-lg-6 col-md-6 col-sm-6 bg-primary align-items-center d-flex">
                 <div className="dlab-services-box text-white">
                   <h2 className="service-year">
-                    14<small>year</small>
+                    14<small>years</small>
                   </h2>
                   <h3 className="title m-b0">
                   Leading the way in low voltage control panels for power and industry.
@@ -91,7 +93,7 @@ export default function ProjectGallery() {
                   alt=""
                   src="/images/company pump.png"
                   width="500"
-                  height="357"
+                  height="200"
                 />
               </div>
               {/* <div className="col-lg-6 col-md-6 col-sm-6">
@@ -119,12 +121,12 @@ export default function ProjectGallery() {
     <video
       className="img-cover"
       width="500"
-      height="357"
+      height="200"
       autoPlay
       muted
 
      
-      src="/video/EE cutter.mp4" // Replace with the correct video path
+      src="/video/EE cutter.mp4" 
     >
       Your browser does not support the video tag.
     </video>

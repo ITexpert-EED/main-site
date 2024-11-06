@@ -60,6 +60,7 @@ export default function Features() {
             className="col-lg-4 col-md-6 m-b30 wow fadeInUp"
             data-wow-duration="2s"
             data-wow-delay="0.3s"
+       
           >
             <div className="request-form dezPlaceAni">
               <div className="request-form-header">

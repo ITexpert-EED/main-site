@@ -332,12 +332,21 @@ export const blogPosts5 = [
   {
     id: 34,
     date: {
+<<<<<<< HEAD
       day: "10 Aug",
       year: "2016",
     },
     author: "Jack",
     imageUrl: "/images/our-work/car/pic1.jpg",
     title: "Seven Doubts You Should",
+=======
+      day: "24 Oct",
+      year: "2024",
+    },
+    // author: "Jack",
+    imageUrl: "/images/our-work/car/pic1.jpg",
+    title: "Schneider Electric partners with Noida International Airport for Building and Energy Management Solutions",
+>>>>>>> 8eab01e (slideer updated)
     description:
       "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true.",
     delay: "0.3s",
@@ -350,7 +359,11 @@ export const blogPosts5 = [
     },
     author: "Zachary",
     imageUrl: "/images/our-work/car/pic2.jpg",
+<<<<<<< HEAD
     title: "The Shocking Revelation",
+=======
+    title: "L&T Switchgear is Now ‘Lauritz Knudsen’ : Redefining Excellence in India's Electrical Solutions Landscape",
+>>>>>>> 8eab01e (slideer updated)
     description:
       "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true.",
     delay: "0.6s",

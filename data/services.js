@@ -930,82 +930,77 @@ export const services10 = [
   {
     id: 137,
     imgSrc: "/images/icon/car/icon-1.png",
-    title: "Trunking Project",
+    title: "LV Panels",
     description:
-      "We offer complete electrical and mechanical turnkey solutions, from design to commissioning, ensuring precision, efficiency, and customer satisfaction.",
+      "Low voltage (LV) typically refers to voltages up to 1,100 volts in alternating current (AC) systems and 1,500 volts in direct current (DC) systems.",
     animation: "bounceInUp",
     delay: "0.3s",
     types: [
-      "ALL SERVICES",
-      "ELECTRICAL TRUNKING PROJECT",
-      "MECHANICAL SERVICES",
+      "Power Control Center (PCC) Panels",
+      "Motor Control Centers (MCC) Panels",
+      "DG Synchronizing Panel",
+      "Automatic Power Correction Panels(APFC) Panels",
+      "Solar 800V LT Panels"
     ],
   },
   {
     id: 138,
     imgSrc: "/images/icon/car/icon-2.png",
-    title: "Automation Solution",
+    title: "MV Panels",
+
     description:
       " Our solutions automate Front Remote Terminal Units (FRTU) and modems for enhanced communication and remote monitoring in various systems.",
     animation: "bounceInUp",
     delay: "0.6s",
     types: [
-      "ALL SERVICES",
-      "Load Management System",
-      "Scada System",
-      "Energy Management System",
-      "Building Management System",
-      "Special Purpose Machine Automation",
-      "FRTU and Modems",
+      "11/33KV HT VCB Panel",
+      "3.3kV/ 6.6kV/ 11kV HT DOL Starter",
+      "3.3kV/ 6.6kV/ 11kV  APFC",
+      
     ],
   },
   {
     id: 139,
     imgSrc: "/images/icon/car/icon-3.png",
-    title: "Water Solution",
+    title: "Bus Bar Trunking",
     description:
-      "We design and implement wastewater management systems that provide effective treatment and recycling of industrial and municipal wastewater.",
+      "BUSBAR TRUNKING SYSTEM involves the distribution of electrical power using a set of copper/Aluminum bus bars enclosed in a suitable encloser with a high degree of protection against any ingress of foreign bodies.",                        
     animation: "bounceInUp",
     delay: "0.9s",
     types: [
-      "ALL SERVICES",
-      "Water Work",
-      "WasteWater",
-      " Irrigation",
-      "Borewell Automation System",
-      "Pumps",
-      "Valves",
-      "Filtration Vessels",
-      "Smart Valves",
-      "Flow Meter",
+       "LT Conventional Air Insulated Busducts",
+     "LT Sandwich Bus Duct "
     ],
   },
   {
     id: 140,
     imgSrc: "/images/icon/car/icon-4.png",
-    title: "Retrofitting Work",
+    title: "TURNKEY PROJECT",
     description:
       "Our retrofitting services upgrade existing electrical and mechanical systems to enhance performance, safety, and energy efficiency",
     animation: "bounceInUp",
     delay: "0.9s",
     types: [
-      "ALL SERVICES",
-      "ELECTRICAL TRUNKING PROJECT",
-      "MECHANICAL SERVICES",
+      
+      "ELECTRICAL TURNKEY PROJECT",
+      "MECHANICAL  TURNKEY PROJECT",
     ],
   },
   {
     id: 141,
     imgSrc: "/images/icon/car/icon-5.png",
-    title: "Audit",
+    title: "Automation Solutions",
     description:
       "We conduct energy, power factor, and earthing audits, identifying savings and optimizing efficiency while ensuring safe grounding through soil testing.",
     animation: "bounceInUp",
     delay: "0.6s",
     types: [
-      "ALL SERVICES",
-      "ELECTRICAL TRUNKING PROJECT",
-      "MECHANICAL SERVICES",
+      "LOAD MANAGEMENT SYSTEM",
+      "SCADA SYSTEM",
+      "ENERGY MANAGEMENT SYSTEM",
+      "BULIDING MANAGEMENT SYSTEM",
+      "SPECIAL PURPOSE MACHINES AUTOMATION",
+      "FRTU AND MODEMS",
     ],
   },
   {

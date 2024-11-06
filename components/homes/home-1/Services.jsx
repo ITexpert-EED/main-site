@@ -10,7 +10,7 @@ export default function Service() {
     >
       <div className="container">
         <div className="section-head text-black text-center">
-          <h2 className="title">Our Services</h2>
+          <h2 className="title">Our Offerings</h2>
           <p>
             Our company offers a range of services including turnkey electrical
             and mechanical projects, bus bar trunking, and automation for load,
