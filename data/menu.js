@@ -148,15 +148,21 @@ export const pagesItems = [
 
 
       },
-      { href: "/services-1", label: " Bus Bar Trunking" },
-      { href: "/services-2", label: "Compact Sub Stations" },
+    
+      { href: "/bus-bar-trunking/bbt-details", label: "Bus Bar Trunking",
+        type:[
+          { href: "/air-insulated-bus", label: "Air Insulated Bus Duct" },
+        ]
+
+      },
+      { href: "/compact-sub-stations/css", label: "Compact Sub Stations" },
       // { href: "/services-details/Solar Panels", label: "Services Details" },
     ],
   },
   {
     title: "Trunking Projects",
     links: [
-      { href: "/team-1", label: "Electrical" },
+      { href: "/electrical-trunking-project/electrical", label: "Electrical" },
       { href: "/team-2", label: "Mechanical" },
       // { href: "/faq-1", label: "Faqs 1" },
       // { href: "/faq-2", label: "Faqs 2" },

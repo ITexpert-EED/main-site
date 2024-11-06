@@ -909,8 +909,9 @@ export const services9 = [
     imgSrc: "/images/gallery/car/pic2.jpg",
     iconClass: "ti-settings",
     title: "Quality Policy",
+    slogan:"We are Committed to Excellence.",
     description:
-      "We are Committed to Excellence.Excellence is art won by training and habituation. We do not act rightly because we have virtue of excellence but we rather have those because we have acted rightly. We are what are repeatedly do.",
+      "Excellence is art won by training and habituation. We do not act rightly because we have virtue of excellence but we rather have those because we have acted rightly. We are what are repeatedly do.",
     animation: "fadeInRight",
     delay: "0.3s",
   },

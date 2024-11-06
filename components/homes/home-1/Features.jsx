@@ -40,6 +40,7 @@ export default function Features() {
                       </div>
                       <div className="icon-content">
                         <h5 className="dlab-tilte">{item.title}</h5>
+                        <span>{item.slogan}</span>
                         <p>{item.description}</p>
                       </div>
                     </div>

@@ -6,6 +6,7 @@ import ShopFeatures from "@/components/shop/ShopFeatures";
 import ProductDetails from "@/components/shop/ProductDetails";
 import React from "react";
 import { products } from "@/data/products";
+import BbtDetails from "@/components/shop/BbtDetails";
 // import Header22 from "@/components/headers/Header22";
 
 export const metadata = {
@@ -19,7 +20,7 @@ export default function page({ params }) {
     products.filter((elm) => elm.title == slug)[0] || products[0];
   return (
     <>
-      <div className="page-wraper  ">                   
+      <div className="page-wraper  ">
         <Header1 />
         <div className="page-content bg-white">
           <div
@@ -43,7 +44,8 @@ export default function page({ params }) {
             </div>
           </div>
           {/* <ShopDetails productsItem={productsItem} /> */}
-          <ProductDetails productsItem={productsItem}/>
+         
+          <BbtDetails productsItem={productsItem}/>
 {/* <ShopFeatures /> */}
         </div>
         <Footer1 />

@@ -21,24 +21,24 @@ export const products = [
   },
   {
     id: 63,
-    imgSrc: "/images/product/item3.jpg",
-    title: "Dark Brown Boots",
+    imgSrc: "/images/product/pcc.jpg",
+    title: "Bus Bar Trunking",
     price: 232,
     discountedPrice: 192,
     rating: 2.5,
     styleClass: "",
-    link:"/shop-product-details/panels"
+    link:"/bbt-details/bus-bar-trunking"
     
   },
   {
     id: 64,
-    imgSrc: "/images/product/item4.jpg",
-    title: "Light Blue Denim Dress",
+    imgSrc: "/images/busbar.jpg",
+    title: "Compact Sub ",
     price: 232,
     discountedPrice: 192,
     rating: 3.5,
     styleClass: "",
-      link:"/shop-product-details/panels"
+      link:"/compact-sub-stations/css"
   },
   // {
   //   id: 65,
